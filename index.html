@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bangtang Stickers & Bookmarks</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    /* Custom Styles */
+    body {
+      background-color: #f8f9fa;
+    }
+
+    .logo {
+      width: 100px;
+      height: 100px;
+      background-image: url("https://cdn.glitch.global/f6921bb3-1919-4e35-8a25-f8adcffdabb4/db5686cc-5644-4a9f-8676-35a181e9a622.WhatsApp%20Image%202023-05-25%20at%2011.46.56.jpg?v=1684995487984");
+      background-size: cover;
+      background-position: center;
+      border-radius: 50%;
+    }
+
+    .navbar {
+      background-color: #ff6b6b;
+    }
+
+    .navbar-brand,
+    .nav-link {
+      color: #fff !important;
+    }
+
+    .login-form {
+      max-width: 400px;
+      margin: 0 auto;
+      background-color: #fff;
+      padding: 30px;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .form-group label {
+      font-weight: bold;
+    }
+
+    .btn-primary {
+      background-color: #ff6b6b;
+      border-color: #ff6b6b;
+    }
+
+    .btn-primary:hover {
+      background-color: #ff4545;
+      border-color: #ff4545;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand" href="#">
+        <div class="logo"></div>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Products</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Employee Wallet</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Login</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <section id="home" class="py-5 text-center">
+    <div class="container">
+      <h1>Welcome to Bangtang Stickers & Bookmarks</h1>
+      <p>Discover a wide range of colorful and creative stickers and bookmarks.</p>
+      <a href="#" class="btn btn-primary">Explore Now</a>
+    </div>
+  </section>
+
+  <section id="products" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-4">Our Products</h2>
+      <div class="row">
+        <div class="col-lg-4 col-md-6">
+          <div class="card">
+            <img src="sticker1.jpg" class="card-img-top" alt="Sticker 1">
+            <div class="card-body">
+              <h5 class="card-title">Sticker 1</h5>
+              <p class="card-text">Description of Sticker 1.</p>
+              <a href="#" class="btn btn-primary">Buy Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="card">
+            <img src="sticker2.jpg" class="card-img-top" alt="Sticker 2">
+            <div class="card-body">
+              <h5 class="card-title">Sticker 2</h5>
+              <p class="card-text">Description of Sticker 2.</p>
+              <a href="#" class="btn btn-primary">Buy Now</a>
+            </div>
+          </div>
+        </div>
+        <!-- Add more cards for other products -->
+      </div>
+    </div>
+  </section>
+
+  <section id="employee-wallet" class="py-5">
+    <div class="container text-center">
+      <h2 class="mb-4">Employee Wallet</h2>
+      <p>Manage your employee benefits and rewards with our convenient wallet system.</p>
+      <a href="#" class="btn btn-primary">Login to Employee Wallet</a>
+    </div>
+  </section>
+
+  <section id="login" class="py-5">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-6 login-form">
+          <h2 class="text-center mb-4">Login</h2>
+          <form>
+            <div class="form-group">
+              <label for="email">Email address</label>
+              <input type="email" class="form-control" id="email" placeholder="Enter email">
+            </div>
+            <div class="form-group">
+              <label for="password">Password</label>
+              <input type="password" class="form-control" id="password" placeholder="Password">
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">Login</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-dark text-light py-4">
+    <div class="container text-center">
+      <p>&copy; 2023 Bangtang Stickers & Bookmarks. All rights reserved.</p>
+      <ul class="list-inline">
+        <li class="list-inline-item">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+        </li>
+        <li class="list-inline-item">
+          <a href="#"><i class="fab fa-twitter"></i></a>
+        </li>
+        <li class="list-inline-item">
+          <a href="#"><i class="fab fa-instagram"></i></a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="https://kit.fontawesome.com/your-font-awesome-kit.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
